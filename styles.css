@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+body {
+
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    font-family: "inter", sans-serif;
+    color: black;
+}
+
+.black-border {
+    border:1px solid #dedcdc;
+    border-radius: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 900px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 400px;
+    background-image: url("images/newyork.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.header--h1, .header--h2 {
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-shadow: 0 0 2px black;
+}
+
+.header--h1 {
+    margin: 0;
+    background-color: #7672A8ff;
+    font-size: 25px;
+}
+
+.header--h2{
+    background-color: #362A5Cff;
+    font-size: 15px;
+    width: 250px;
+}
+
+.main {
+    height: 400px;
+    background-color: #FAE6C6;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.main > h1 {
+    margin-top: 0;
+    padding: 30px 0 0 0;
+    font-size: 25px;
+}
+
+.main--body {
+    display: flex;
+}
+
+.main--cont {
+    text-align: center;
+    margin: 20px;
+}
+
+.main--cont > img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.main--cont > p {
+    font-weight: 300;
+}
+
+.footer {
+    padding-top: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #C2C1D7;
+    border-radius: 0 0 20px 20px;
+}
+
+.footer--card {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 350px;
+    background-color: #625F95;
+    box-shadow: 0px 6px 0px #362A5Cff;
+    border-radius: 10px;
+}
+
+.footer--card > img {
+    margin: auto 10px auto 30px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.footer--text {
+    color: white;
+    margin: 50px 30px 50px 15px;
+}
+
+/* flame: #D5581Eff;
+deep-champagne: #F6CE91ff;
+eggplant: #6E5069ff;
+thistle: #C8B2C7ff;
+dark-blue-gray: #7672A8ff; */
